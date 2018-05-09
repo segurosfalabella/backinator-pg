@@ -1,7 +1,8 @@
 # Backinator::Pg
 
-This gem provide a set of tasks to backup a remote postgres database. It store temporaly in a given file system path and then push the 
-backup file to a remote storage like Azure Storage, AWS S3, etc. To experiment with code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/backinator/pg`. To experiment with that code, run `bin/console` for an interactive prompt.
+
+TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -20,14 +21,10 @@ Or install it yourself as:
     $ gem install backinator-pg
 
 ## Usage
-```bash
-bundle exec rake backinator_pg:run
-```
-TODO: We are working on:
 
-- [] Config generators
-- [] Tests
-- [] Some beers
+- [ ] Config generators
+- [ ] Tests
+- [ ] Some beers
 
 ## Development
 
