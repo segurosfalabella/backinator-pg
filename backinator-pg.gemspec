@@ -6,12 +6,13 @@ require "backinator/pg/version"
 Gem::Specification.new do |spec|
   spec.name          = "backinator-pg"
   spec.version       = Backinator::Pg::VERSION
-  spec.authors       = ["Sandro Ariel Gómez Araya"]
+  spec.authors       = ["Sandro Ariel Gómez Araya (@mrsangrin)"]
   spec.email         = ["sandro.gomez@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "This gem provide a set of task to backup a remote postgres database."
+  spec.description   = "This gem provide a set of task to backup a remote postgres database storing temporaly on local \
+                        storage and uploading/transfer to remote one."
+  spec.homepage      = "https://github.com/segurosfalabella/backinator-pg"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
