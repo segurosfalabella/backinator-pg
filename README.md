@@ -25,9 +25,9 @@ bundle exec rake backinator_pg:run
 ```
 TODO: We are working on:
 
-[] Config generators
-
-[] Testing
+- [] Config generators
+- [] Tests
+- [] Some beers
 
 ## Development
 
